@@ -20,7 +20,7 @@ function removeFile(FilePath) {
 router.get('/', async (req, res) => {
     const id = makeid();
  //   let num = req.query.number;
-    async function NIMA_PAIR_CODE() {
+    async function MALVIN_XD_PAIR_CODE() {
         const {
             state,
             saveCreds
@@ -70,9 +70,9 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "NIMA~" + string_session;
+                        let md = "malvin~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hey there, NIMA-V4 User!* 👋🏻
+                        let desc = `*Hey there, NIMA V4 User!* 👋🏻
 
 Thanks for using *NIMA-V4* — your session has been successfully created!
 
@@ -82,8 +82,8 @@ Thanks for using *NIMA-V4* — your session has been successfully created!
 ——————
 
 *✅ Stay Updated:*  
-Join our official WhatsApp Group:  
-https://chat.whatsapp.com/HLBP338VvUC0ms5NqCkSSO?mode=ac_t
+Join our official WhatsApp Channel:  
+https://whatsapp.com/channel/0029Vb68g1c3LdQLQDkbAQ3M
 
 *💻 Source Code:*  
 Fork & explore the project on GitHub:  
@@ -91,13 +91,13 @@ https://github.com/Nimeshamadhushan/nima-v4
 
 ——————
 
-> *CREATED BY NIMA CODER*
+> *© CREATED BY NIMA CODER*
 Stay cool and hack smart. ✌🏻`;
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "NIMA 𝕮𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉",
+title: "ᴍᴀʟᴠɪɴ-xᴅ 𝕮𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉",
 thumbnailUrl: "https://i.postimg.cc/029xmZVt/IMG-20250801-003906-211.jpg",
 sourceUrl: "https://chat.whatsapp.com/HLBP338VvUC0ms5NqCkSSO?mode=ac_t",
 mediaType: 1,
@@ -108,7 +108,7 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Hey there, NIMA-V4 User!* 👋🏻
+                            let desc = `*Hey there, NIMA V4 User!* 👋🏻
 
 Thanks for using *NIMA-V4* — your session has been successfully created!
 
@@ -118,20 +118,20 @@ Thanks for using *NIMA-V4* — your session has been successfully created!
 ——————
 
 *✅ Stay Updated:*  
-Join our official WhatsApp Grioup:  
-https://chat.whatsapp.com/HLBP338VvUC0ms5NqCkSSO?mode=ac_t
+Join our official WhatsApp Channel:  
+https://whatsapp.com/channel/0029Vb68g1c3LdQLQDkbAQ3M
 
 *💻 Source Code:*  
 Fork & explore the project on GitHub:  
 https://github.com/Nimeshamadhushan/nima-v4
 
-> *CREATED BY NIMA CODER*
+> *© CREATED BY NIMA CODER*
 Stay cool and hack smart. ✌🏻*`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "NIMA 𝕮𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉 ✅  ",
+title: "ᴍᴀʟᴠɪɴ-xᴅ 𝕮𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉 ✅  ",
 thumbnailUrl: "https://i.postimg.cc/029xmZVt/IMG-20250801-003906-211.jpg",
 sourceUrl: "https://chat.whatsapp.com/HLBP338VvUC0ms5NqCkSSO?mode=ac_t",
 mediaType: 2,
@@ -150,7 +150,7 @@ showAdAttribution: true
                     process.exit();
                 } else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) {
                     await delay(10);
-                    NIMA_PAIR_CODE();
+                    MALVIN_XD_PAIR_CODE();
                 }
             });
         } catch (err) {
@@ -161,7 +161,7 @@ showAdAttribution: true
             }
         }
     }
-    await NIMA_PAIR_CODE();
+    await MALVIN_XD_PAIR_CODE();
 });
 setInterval(() => {
     console.log("☘️ 𝗥𝗲𝘀𝘁𝗮𝗿𝘁𝗶𝗻𝗴 𝗽𝗿𝗼𝗰𝗲𝘀𝘀...");
